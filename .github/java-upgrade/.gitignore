@@ -1,0 +1,6 @@
+
+/target/
+nbproject/private/
+build/
+.nb-gradle/
+*.log
