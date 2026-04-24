@@ -2,6 +2,7 @@
 
 # Smart Campus: Sensor & Room Management API
 **Developer:** Nivvethik Kumaresan
+
 **Environment:** GlassFish 5.1.0 | JDK 8 | Maven | JAX-RS (Jersey)
 
 ## 1. API Design Overview
