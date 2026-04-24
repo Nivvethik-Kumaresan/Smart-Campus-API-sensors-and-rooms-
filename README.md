@@ -37,5 +37,6 @@ Semantic Accuracy (422 vs. 404): I utilized HTTP 422 (Unprocessable Entity) for 
 
 Cybersecurity & Information Hiding: The GlobalExceptionMapper serves as a critical security layer. By intercepting all Throwable types and returning a generic 500 Internal Server Error JSON, I prevent the leakage of Java stack traces. Raw stack traces are a major security risk as they expose internal file paths, library versions, and logic flows to potential attackers.
 
-8. Observability
+7. Observability
+8. 
 Logging Filters: I implemented a unified logging mechanism using JAX-RS Filters. By intercepting both ContainerRequest and ContainerResponse, the system provides a centralized audit trail of every HTTP method, URI, and final status code, facilitating rapid debugging and traffic analysis.
